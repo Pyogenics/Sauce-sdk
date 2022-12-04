@@ -1,45 +1,45 @@
 set(SOURCES_VRAD_DLL
-${CMAKE_SOURCE_DIR}/public/BSPTreeData.cpp
-${CMAKE_SOURCE_DIR}/public/disp_common.cpp
-${CMAKE_SOURCE_DIR}/public/disp_powerinfo.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/disp_vrad.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/imagepacker.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/incremental.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/leaf_ambient_lighting.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/lightmap.cpp
-${CMAKE_SOURCE_DIR}/public/loadcmdline.cpp
-${CMAKE_SOURCE_DIR}/public/lumpfiles.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/macro_texture.cpp
-${CMAKE_SOURCE_DIR}/utils/common/mpi_stats.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/mpivrad.cpp
-${CMAKE_SOURCE_DIR}/utils/common/MySqlDatabase.cpp
-${CMAKE_SOURCE_DIR}/utils/common/pacifier.cpp
-${CMAKE_SOURCE_DIR}/utils/common/physdll.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/radial.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/SampleHash.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/trace.cpp
-${CMAKE_SOURCE_DIR}/utils/common/utilmatlib.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/vismat.cpp
-${CMAKE_SOURCE_DIR}/utils/common/vmpi_tools_shared.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/vrad.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/VRAD_DispColl.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/VradDetailProps.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/VRadDisps.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/vraddll.cpp
-${CMAKE_SOURCE_DIR}/utils/vrad/VRadStaticProps.cpp
-${CMAKE_SOURCE_DIR}/public/zip_utils.cpp
-${CMAKE_SOURCE_DIR}/utils/common/bsplib.cpp
-${CMAKE_SOURCE_DIR}/public/builddisp.cpp
-${CMAKE_SOURCE_DIR}/public/ChunkFile.cpp
-${CMAKE_SOURCE_DIR}/utils/common/cmdlib.cpp
-${CMAKE_SOURCE_DIR}/public/DispColl_Common.cpp
-${CMAKE_SOURCE_DIR}/utils/common/map_shared.cpp
-${CMAKE_SOURCE_DIR}/utils/common/polylib.cpp
-${CMAKE_SOURCE_DIR}/utils/common/scriplib.cpp
-${CMAKE_SOURCE_DIR}/utils/common/threads.cpp
-${CMAKE_SOURCE_DIR}/utils/common/tools_minidump.cpp
-${CMAKE_SOURCE_DIR}/public/CollisionUtils.cpp
-${CMAKE_SOURCE_DIR}/public/filesystem_helpers.cpp
-${CMAKE_SOURCE_DIR}/public/ScratchPad3D.cpp
-${CMAKE_SOURCE_DIR}/public/ScratchPadUtils.cpp
+	${CMAKE_SOURCE_DIR}/public/BSPTreeData.cpp
+	${CMAKE_SOURCE_DIR}/public/disp_common.cpp
+	${CMAKE_SOURCE_DIR}/public/disp_powerinfo.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/disp_vrad.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/imagepacker.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/incremental.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/leaf_ambient_lighting.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/lightmap.cpp
+	${CMAKE_SOURCE_DIR}/public/loadcmdline.cpp
+	${CMAKE_SOURCE_DIR}/public/lumpfiles.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/macro_texture.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/mpi_stats.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/mpivrad.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/MySqlDatabase.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/pacifier.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/physdll.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/radial.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/SampleHash.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/trace.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/utilmatlib.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/vismat.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/vmpi_tools_shared.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/vrad.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/VRAD_DispColl.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/VradDetailProps.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/VRadDisps.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/vraddll.cpp
+	${CMAKE_SOURCE_DIR}/utils/vrad/VRadStaticProps.cpp
+	${CMAKE_SOURCE_DIR}/public/zip_utils.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/bsplib.cpp
+	${CMAKE_SOURCE_DIR}/public/builddisp.cpp
+	${CMAKE_SOURCE_DIR}/public/ChunkFile.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/cmdlib.cpp
+	${CMAKE_SOURCE_DIR}/public/DispColl_Common.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/map_shared.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/polylib.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/scriplib.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/threads.cpp
+	${CMAKE_SOURCE_DIR}/utils/common/tools_minidump.cpp
+	${CMAKE_SOURCE_DIR}/public/CollisionUtils.cpp
+	${CMAKE_SOURCE_DIR}/public/filesystem_helpers.cpp
+	${CMAKE_SOURCE_DIR}/public/ScratchPad3D.cpp
+	${CMAKE_SOURCE_DIR}/public/ScratchPadUtils.cpp
 )
