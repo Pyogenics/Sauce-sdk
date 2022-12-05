@@ -1,27 +1,38 @@
 cmake_minimum_required(VERSION 3.12)
 project(hl2sp)
 
-# Sources
-include(game/client/client.cmake)
-include(game/server/server.cmake)
-include(game/shared/shared.cmake)
+# General vars
+set(PUBLIBS ${CMAKE_SOURCE_DIR}/lib/)
+set(SOURCEDEFS ${CMAKE_SOURCE_DIR}/cmake/sources)
 
-# Collect sources
-set(SOURCES
-	${SOURCES_GAME_CLIENT}
-	${SOURCES_GAME_SERVER}
-	${SOURCES_GAME_SHARED}
+include_directories(
+	public/
+	common/
 )
 
-# Collect headers
-set(HEADERS
-	${HEADERS_GAME_CLIENT}
-	${HEADERS_GAME_SERVER}
-	${HEADERS_GAME_SHARED}
-)
+# Projects
+## libs
+add_subdirectory(tier1)
+add_subdirectory(fgdlib)
+add_subdirectory(mathlib)
 
-add_executable(${CMAKE_PROJECT_NAME} ${HEADERS} ${SOURCES})
+## game
+add_subdirectory(game/client)
+add_subdirectory(game/server)
 
-target_include_directories(${CMAKE_PROJECT_NAME}
-	PRIVATE public/
-)
+## utils
+add_subdirectory(utils/captioncompiler)
+add_subdirectory(utils/glview)
+add_subdirectory(utils/height2normal)
+add_subdirectory(utils/motionmapper)
+add_subdirectory(utils/phonemeextractor)
+add_subdirectory(utils/qc_eyes)
+add_subdirectory(utils/tgadiff)
+add_subdirectory(utils/vbsp)
+add_subdirectory(utils/vice)
+add_subdirectory(utils/vrad)
+add_subdirectory(utils/vrad_launcher)
+add_subdirectory(utils/vtf2tga)
+add_subdirectory(utils/vtfdiff)
+add_subdirectory(utils/vvis)
+add_subdirectory(utils/vvis_launcher)
