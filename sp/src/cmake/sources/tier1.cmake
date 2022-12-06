@@ -1,0 +1,49 @@
+set(SOURCES_TIER1
+		   ${CMAKE_SOURCE_DIR}/tier1/bitbuf.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/newbitbuf.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/byteswap.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/characterset.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/checksum_crc.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/checksum_md5.cpp
+		   ${CMAKE_SOURCE_DIR}/tier1/checksum_sha1.cpp
+		   ${CMAKE_SOURCE_DIR}/tier1/commandbuffer.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/convar.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/datamanager.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/diff.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/generichash.cpp
+		   ${CMAKE_SOURCE_DIR}/tier1/ilocalize.cpp
+		   ${CMAKE_SOURCE_DIR}/tier1/interface.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/KeyValues.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/kvpacker.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/lzmaDecoder.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/lzss.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/mempool.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/memstack.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/NetAdr.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/splitstring.cpp
+		   # Windows/xbox
+		   #${CMAKE_SOURCE_DIR}/tier1/processor_detect.cpp
+		   #
+		   ${CMAKE_SOURCE_DIR}/tier1/processor_detect_linux.cpp
+		   # Linux/ps3
+		   ${CMAKE_SOURCE_DIR}/tier1/qsort_s.cpp
+		   #
+                   ${CMAKE_SOURCE_DIR}/tier1/rangecheckedvar.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/reliabletimer.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/stringpool.cpp
+                   ${CMAKE_SOURCE_DIR/tier1/strtools.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/tier1.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/tokenreader.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/sparsematrix.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/uniqueid.cpp
+		   ${CMAKE_SOURCE_DIR}/tier1/utlbuffer.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/utlbufferutil.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/utlstring.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/utlsymbol.cpp
+		   # Linux
+		   ${CMAKE_SOURCE_DIR}/tier1/pathmatch.cpp
+		   #
+		   ${CMAKE_SOURCE_DIR}/tier1/snappy.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/snappy-sinksource.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/snappy-stubs-internal.cpp
+)
