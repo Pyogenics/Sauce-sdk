@@ -31,7 +31,7 @@ set(SOURCES_TIER1
                    ${CMAKE_SOURCE_DIR}/tier1/rangecheckedvar.cpp
                    ${CMAKE_SOURCE_DIR}/tier1/reliabletimer.cpp
                    ${CMAKE_SOURCE_DIR}/tier1/stringpool.cpp
-                   ${CMAKE_SOURCE_DIR/tier1/strtools.cpp
+                   ${CMAKE_SOURCE_DIR}/tier1/strtools.cpp
                    ${CMAKE_SOURCE_DIR}/tier1/tier1.cpp
                    ${CMAKE_SOURCE_DIR}/tier1/tokenreader.cpp
                    ${CMAKE_SOURCE_DIR}/tier1/sparsematrix.cpp
