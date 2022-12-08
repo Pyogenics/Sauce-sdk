@@ -404,17 +404,6 @@ bool C_VortigauntEffectDispel::SetupEmitters( void )
 {
 	m_pDLight = NULL;
 
-#ifndef _X360
-	m_pDLight = effects->CL_AllocDlight ( index );
-	m_pDLight->origin = GetAbsOrigin();
-	m_pDLight->color.r = 64;
-	m_pDLight->color.g = 255;
-	m_pDLight->color.b = 64;
-	m_pDLight->radius = 0;
-	m_pDLight->minlight = DLIGHT_MINLIGHT;
-	m_pDLight->die = FLT_MAX;
-#endif // _X360
-
 	return true;
 }
 
