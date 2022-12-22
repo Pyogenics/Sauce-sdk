@@ -5,6 +5,9 @@ option(BUILD_CLIENT "Build the client" ON)
 option(BUILD_SERVER "Build the server" ON)
 option(BUILD_UTILS "Build utility programs" OFF)
 option(BUILD_MATHLIB "Build mathlib" ON)
+option(BUILD_RAYTRACE "Build raytrace" OFF)
+option(BUILD_TIER1 "Build tier1" ON)
+option(BUILD_VGUI_CONTROLS "Build vgui controls" OFF)
 
 add_definitions(
 	-DVPC
