@@ -1,11 +1,11 @@
 set(SOURCES_VBSP
 	${CMAKE_SOURCE_DIR}/utils/vbsp/boundbox.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/brushbsp.cpp
-	${CMAKE_SOURCE_DIR}/public/CollisionUtils.cpp
+	${CMAKE_SOURCE_DIR}/public/collisionutils.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/csg.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/cubemap.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/detail.cpp
-	${CMAKE_SOURCE_DIR}/utils/vbsp/detailObjects.cpp
+	${CMAKE_SOURCE_DIR}/utils/vbsp/detailobjects.cpp
 	${CMAKE_SOURCE_DIR}/public/disp_common.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/disp_ivp.cpp
 	${CMAKE_SOURCE_DIR}/public/disp_powerinfo.cpp
@@ -27,9 +27,9 @@ set(SOURCES_VBSP
 	${CMAKE_SOURCE_DIR}/utils/common/physdll.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/portals.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/prtfile.cpp
-	${CMAKE_SOURCE_DIR}/public/ScratchPad3D.cpp
+	${CMAKE_SOURCE_DIR}/public/scratchpad3d.cpp
 	${CMAKE_SOURCE_DIR}/utils/common/scratchpad_helpers.cpp
-	${CMAKE_SOURCE_DIR}/utils/vbsp/StaticProp.cpp
+	${CMAKE_SOURCE_DIR}/utils/vbsp/staticprop.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/textures.cpp
 	${CMAKE_SOURCE_DIR}/utils/vbsp/tree.cpp
 	${CMAKE_SOURCE_DIR}/utils/common/utilmatlib.cpp
@@ -39,7 +39,7 @@ set(SOURCES_VBSP
 	${CMAKE_SOURCE_DIR}/public/zip_utils.cpp
 	${CMAKE_SOURCE_DIR}/utils/common/bsplib.cpp
 	${CMAKE_SOURCE_DIR}/public/builddisp.cpp
-	${CMAKE_SOURCE_DIR}/public/ChunkFile.cpp
+	${CMAKE_SOURCE_DIR}/public/chunkfile.cpp
 	${CMAKE_SOURCE_DIR}/utils/common/cmdlib.cpp
 	${CMAKE_SOURCE_DIR}/public/filesystem_helpers.cpp
 	${CMAKE_SOURCE_DIR}/public/filesystem_init.cpp
